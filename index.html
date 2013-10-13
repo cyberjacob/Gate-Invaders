@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>
+	Space Invaders
+</title><meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" /> 
+
+        <!-- Common scripts -->
+        <script src="../Common/Scripts/Animation.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/Bitmap.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/BitmapManager.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/Particle.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/ParticleManager.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/Sprite.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/SpriteManager.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/ControlManager.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/ServerManager.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/Misc.js" type="text/javascript"></script>
+        <script src="../Common/Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+        <!-- Local scripts -->
+        <script src="Scripts/GameManager.js" type="text/javascript"></script>
+        <script src="Scripts/Main.js" type="text/javascript"></script>        
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-42248841-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+            $(document).ready(function()
+            {
+                Init();
+            });
+
+        </script>
+        
+    </head>
+    <body style="background-color: #000000;">
+        <form name="form1" method="post" action="default.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTg2Njc2NjM3M2RkWtAPfjvb0fF28PDRfGNBIRxFqN0=" />
+
+
+            <div style="margin: 22px auto 0 auto; width: 800px;">
+                <canvas id="canvas" width="800px" height="600px">
+                    <div style="color:#49DB49; font-family: sans-serif; width: 100%; text-align: center;">
+                        <p>- SPACE INVADERS -</p>
+                        <p>Your browser does not support HTML5 canvas</p>                    
+                    </div>
+                </canvas>
+            </div>            
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>
+	Gate Invaders
+</title><meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" /> 
+
+        <!-- Common scripts -->
+        <script src="Scripts/Animation.js" type="text/javascript"></script>
+        <script src="Scripts/Bitmap.js" type="text/javascript"></script>
+        <script src="Scripts/BitmapManager.js" type="text/javascript"></script>
+        <script src="Scripts/Particle.js" type="text/javascript"></script>
+        <script src="Scripts/ParticleManager.js" type="text/javascript"></script>
+        <script src="Scripts/Sprite.js" type="text/javascript"></script>
+        <script src="Scripts/SpriteManager.js" type="text/javascript"></script>
+        <script src="Scripts/ControlManager.js" type="text/javascript"></script>
+        <script src="Scripts/ServerManager.js" type="text/javascript"></script>
+        <script src="Scripts/Misc.js" type="text/javascript"></script>
+        <script src="Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+        <!-- Local scripts -->
+        <script src="Scripts/GameManager.js" type="text/javascript"></script>
+        <script src="Scripts/Main.js" type="text/javascript"></script>        
+
+        <script type="text/javascript">
+
+            $(document).ready(function()
+            {
+                Init();
+            });
+
+        </script>
+        
+    </head>
+    <body style="background-color: #000000;">
+            <div style="margin: 22px auto 0 auto; width: 800px;">
+                <canvas id="canvas" width="800px" height="600px">
+                    <div style="color:#49DB49; font-family: sans-serif; width: 100%; text-align: center;">
+                        <p>- GATE INVADERS -</p>
+                        <p>Your browser does not support HTML5 canvas</p>                    
+                    </div>
+                </canvas>
+<br/>
+<br/>
+<audio controls>
+  <source src="http://ci.bluesapphiremedia.co.uk/Theremin%20Hero%20-%20Lasers,%20Theremin,%20NES%20&%20Gameboy%20-%2003%20Tetris%20Theme%20%28Korobeiniki%29%20for%20Laser%20Harp%20%28chiptune%20version%29.ogg"/>
+  <source scr="http://ci.bluesapphiremedia.co.uk/Teremin_Hero_Tetris_Chiptine.mp3"/>
+  Your browser does not support playing MP3s directly through HTML5 :(
+</audio>
+            </div>            
+    </body>
+</html>
